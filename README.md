@@ -65,3 +65,27 @@ Make sure you have Node.js and the Expo Go app on your mobile device.
 ## 📁 Folder Structure
 
 The project follows a clean and scalable structure:
+teofin-bank-app/
+├── app/                  # All routes and layouts managed by Expo Router
+│   ├── (tabs)/           # Route group for the tab navigator
+│   │   ├── _layout.js    # Tab navigator configuration
+│   │   └── dashboard.js  # Screen file for the dashboard tab
+│   ├── _layout.js        # Root stack navigator layout
+│   └── index.js          # App entry point (redirects to onboarding)
+├── assets/               # Static assets like images and fonts
+├── components/           # Reusable UI components (Button, InputField, etc.)
+├── constants/            # Theme settings (colors, fonts) and static data
+└── ...                   # Other configuration files
+
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/Casey-Jeremy/teofin-bank-app/issues).
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License - see the `LICENSE.md` file for details.
