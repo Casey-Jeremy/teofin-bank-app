@@ -1,50 +1,67 @@
-# Welcome to your Expo app 👋
+# Teofin Bank App 🏦
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+![Teofin App Showcase](assets/img.AVIF)
 
-## Get started
+Teofin is a sleek, modern mobile banking application designed for easy and secure management of your finances. This project is built with React Native and Expo, showcasing a clean user interface and a robust, scalable architecture using Expo Router for navigation.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## ✨ Key Features
 
-2. Start the app
+-   **Smooth Onboarding**: A beautiful, interactive onboarding experience for new users.
+-   **Secure Authentication**: A complete sign-in, sign-up, and password recovery flow.
+-   **Dynamic Tab Navigation**: A native tab bar for accessing core features.
+-   **Dashboard**: A central hub for viewing account summaries and quick actions.
+-   **Deposits & Loans**: Sections for managing deposits and loan accounts.
+-   **Fund Transfers**: Easy-to-use interfaces for various payment types (IBAN, Mobile, etc.).
+-   **Transaction History**: A detailed log of all transactions.
+-   **Profile Management**: Users can view and edit their personal information.
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 🛠️ Tech Stack
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+-   **Framework**: React Native with Expo
+-   **Navigation**: Expo Router (File-Based Routing)
+-   **State Management**: React Hooks (`useState`, `useRef`)
+-   **Styling**: React Native Stylesheets
+-   **Linting/Formatting**: Pre-configured for clean code
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 🚀 Getting Started
 
-When you're ready, run:
+To get a local copy up and running, follow these simple steps.
 
-```bash
-npm run reset-project
-```
+### Prerequisites
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Make sure you have Node.js and the Expo Go app on your mobile device.
 
-## Learn more
+-   [Node.js](https://nodejs.org/)
+-   [Expo Go on App Store / Google Play](https://expo.dev/go)
 
-To learn more about developing your project with Expo, look at the following resources:
+### Installation
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+1.  **Clone the repository**
+    ```sh
+    git clone [https://github.com/YourUsername/teofin-bank-app.git](https://github.com/YourUsername/teofin-bank-app.git)
+    ```
+2.  **Navigate to the project directory**
+    ```sh
+    cd teofin-bank-app
+    ```
+3.  **Install NPM packages**
+    ```sh
+    npm install
+    ```
+4.  **Run the application**
+    ```sh
+    npx expo start
+    ```
+    Scan the QR code with the Expo Go app on your phone.
 
-## Join the community
+---
 
-Join our community of developers creating universal apps.
+## 📁 Folder Structure
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+The project follows a clean and scalable structure:
