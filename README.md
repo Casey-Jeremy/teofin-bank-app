@@ -1,6 +1,6 @@
 # Teofin Bank App 🏦
 
-![Teofin App Showcase](assets/img.AVIF)
+![Teofin App Showcase](assets/img.avif)
 
 Teofin is a sleek, modern mobile banking application designed for easy and secure management of your finances. This project is built with React Native and Expo, showcasing a clean user interface and a robust, scalable architecture using Expo Router for navigation.
 
