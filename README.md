@@ -44,7 +44,7 @@ Make sure you have Node.js and the Expo Go app on your mobile device.
 
 1.  **Clone the repository**
     ```sh
-    git clone [https://github.com/YourUsername/teofin-bank-app.git](https://github.com/YourUsername/teofin-bank-app.git)
+    git clone (https://github.com/Casey-Jeremy/teofin-bank-app.git)
     ```
 2.  **Navigate to the project directory**
     ```sh
